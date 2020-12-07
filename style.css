@@ -5,6 +5,7 @@
 
 body {
     background: #fff url(images/fundo.png) repeat-x left top;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
@@ -19,6 +20,14 @@ h1 {
     width: 152px;
     height: 91px; /* margin-top: 25px */
     text-indent: -3000px;
+}
+
+h2 {
+    background-color: #294c71;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 5px;
+    margin-bottom: 5px;
 }
 
 nav ul {
@@ -43,4 +52,66 @@ nav ul {
 
 #main-menu .current-page {
     color: white;
+}
+
+/* ----- end main menu ----- */
+
+/* ----- start page body ----- */
+.page-body {
+    background-color: yellowgreen;
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+/* ----- start main ----- */
+main {
+    background-color: wheat;
+    float: right;
+}
+
+/* ----- start columns ----- */
+.main-columns {
+    background-color: violet;
+    width: 270px;
+    float: left;
+    margin-left: 15px;
+}
+
+.side-column {
+    background-color: tomato;
+    width: 180px;
+    float: left;
+}
+
+.box-content {
+    background: url(images/fundo-caixa.png);
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.content {
+    background-color: #fff;
+    padding: 5px;
+}
+
+.content span {
+    background-color: crimson;
+    font-size: 0.8em;
+}
+
+.content img {
+    width: 100%;
+}
+
+footer {
+    background-color: #294c71;
+    padding: 15px;
+    clear: both;
+}
+
+footer p {
+    color: #fff;
+    width: 750px;
+    margin: 0 auto;
 }
